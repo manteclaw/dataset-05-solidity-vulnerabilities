@@ -1,0 +1,29 @@
+swc_id,vulnerability_type,severity,affected_contracts_pct,avg_loss_usd,detection_method,exploitable,year_discovered,real_world_exploits,mitigation_pattern
+SWC-107,Reentrancy,Critical,15.6,14021750,Symbolic Execution,True,2024,45,SafeMath
+SWC-101,Integer Overflow,High,1.8,33236258,Manual Review,True,2017,19,ReentrancyGuard
+SWC-104,Unchecked Call,Medium,16.5,332685,Manual Review,True,2016,44,Pull over Push
+SWC-105,Access Control,Low,19.9,433825,Static Analysis,True,2016,50,Checks-Effects-Interactions
+SWC-112,Delegatecall,Critical,2.6,12739490,Fuzzing,True,2019,10,Access Control
+SWC-115,TxOrigin,High,15.3,21012608,Fuzzing,True,2026,19,Checks-Effects-Interactions
+SWC-120,Weak Randomness,Medium,5.9,44134,Static Analysis,False,2020,1,ReentrancyGuard
+SWC-107,Reentrancy,Low,14.2,264429,Manual Review,True,2024,30,SafeMath
+SWC-101,Integer Overflow,Critical,8.4,19643418,Manual Review,True,2026,9,Access Control
+SWC-104,Unchecked Call,High,9.4,22343055,Symbolic Execution,True,2016,47,Pull over Push
+SWC-105,Access Control,Medium,12.5,253933,Manual Review,True,2020,20,Pull over Push
+SWC-112,Delegatecall,Low,19.0,326030,Symbolic Execution,True,2022,32,Pull over Push
+SWC-115,TxOrigin,Critical,25.0,14635766,Fuzzing,True,2025,34,Access Control
+SWC-120,Weak Randomness,High,15.4,32687668,Static Analysis,True,2025,12,Checks-Effects-Interactions
+SWC-107,Reentrancy,Medium,12.1,376388,Manual Review,False,2020,3,Pull over Push
+SWC-101,Integer Overflow,Low,17.5,21888,Manual Review,True,2018,46,Checks-Effects-Interactions
+SWC-104,Unchecked Call,Critical,7.3,19637617,Symbolic Execution,False,2022,6,SafeMath
+SWC-105,Access Control,High,19.9,20209584,Manual Review,True,2018,40,Checks-Effects-Interactions
+SWC-112,Delegatecall,Medium,7.9,244682,Fuzzing,True,2019,34,Pull over Push
+SWC-115,TxOrigin,Low,14.9,91839,Static Analysis,True,2025,36,ReentrancyGuard
+SWC-120,Weak Randomness,Critical,4.7,25877882,Static Analysis,True,2017,21,Checks-Effects-Interactions
+SWC-107,Reentrancy,High,1.8,29368666,Manual Review,True,2021,45,Pull over Push
+SWC-101,Integer Overflow,Medium,10.4,194871,Symbolic Execution,True,2021,14,Access Control
+SWC-104,Unchecked Call,Low,2.2,445684,Manual Review,True,2019,21,ReentrancyGuard
+SWC-105,Access Control,Critical,1.8,17660427,Manual Review,True,2024,13,Checks-Effects-Interactions
+SWC-112,Delegatecall,High,2.5,6736623,Manual Review,False,2018,15,Checks-Effects-Interactions
+SWC-115,TxOrigin,Medium,7.8,178273,Static Analysis,False,2021,26,SafeMath
+SWC-120,Weak Randomness,Low,23.2,468550,Symbolic Execution,False,2018,10,SafeMath
